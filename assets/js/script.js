@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
             seconds = 0;
             minutes++;
         }
-        timerElement.textContent = `На сайте ${minutes} м ${seconds} с`;
+        timerElement.textContent = `На сайтi ${minutes} хв ${seconds} с`;
     }
     setInterval(updateTimer, 1000);
 
